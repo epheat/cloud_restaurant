@@ -1,3 +1,68 @@
-.body {
+.elegant-font {
+  font-family: 'Raleway', sans-serif;
+}
 
+.nav {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.navlink {
+  height: 20px;
+}
+
+.selected {
+  text-decoration: underline;
+}
+
+.homelink {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  color: inherit;
+}
+.homelink:hover {
+  text-decoration: none;
+}
+
+.strikethrough {
+  height: 20px;
+}
+
+.strikethrough:after {
+  position: relative;
+  display: inline-block;
+  height: 1px;
+  width: 100%;
+  background-color: #ccc;
+  vertical-align: center;
+  content: "";
+}
+
+.text-over-image {
+  position: relative;
+  margin-top: -50%;
+  margin-bottom: 40%;
+}
+.about {
+  position: relative;
+  padding-top: 50px;
+}
+.footer {
+  margin-top: 40px;
+  width: 100%;
+  height: 30px;
+  background-color: #ccc;
+}
+.no-pad-right {
+  padding-right: 0px;
+}
+
+.menu-item {
+  padding-bottom: 20px;
+}
+
+.daily-special-item {
+  padding-bottom: 20px;
 }
